@@ -2,6 +2,8 @@
   
 This extension provides a "Viewer" attribute showing the users that are actively viewing the record.
 
+![Viewer attribute](res/demo.png)
+
 ## Working on the extension
 
 Install [`aha-cli`](https://github.com/aha-app/aha-cli):

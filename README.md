@@ -1,24 +1,6 @@
 # Who's watching
   
-TODO: Supply a short overview of the functionality the extension brings to Aha! Develop
-This [Aha! Develop](https://www.aha.io/develop/overview) extension enables...
-
-It provides these contributions:
-
-TODO: Add a contribution list here. These should briefly describe each of the features provided by this extension.
-
-## Demo
-
-TODO: Add a short .gif screen recording showing some of the highlights of your extension. This can be recorded using a tool like [LICECap](https://www.cockos.com/licecap/).
-
-![demo](demo.gif)
-
-## Installing the extension
-
-**Note: In order to install an extension into your Aha! Develop account, you must be an account administrator.**
-
-TODO: Fill in a link to your built extension package
-Install the Who's watching extension by clicking [here](https://secure.aha.io/settings/account/extensions/install?url=).
+This extension provides a "Viewer" attribute showing the users that are actively viewing the record.
 
 ## Working on the extension
 
@@ -30,9 +12,8 @@ npm install -g aha-cli
 
 Clone the repo:
 
-TODO: Add the repository URL here
 ```sh
-git clone ...
+git clone git@github.com:trydionel/whos-watching-extension.git
 ```
 
 **Note: In order to install an extension into your Aha! Develop account, you must be an account administrator.**

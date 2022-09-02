@@ -1,0 +1,32 @@
+{
+  "name": "trydionel.whos-watching",
+  "description": "Who's watching",
+  "version": "0.0.0",
+  "author": "trydionel",
+  "repository": {
+    "type": "git",
+    "url": "TODO: Add the GitHub URL to your extension in package.json"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.8.0"
+  },
+  "ahaExtension": {
+    "contributes": {
+      "views": {
+        "whosWatching": {
+          "title": "Viewers",
+          "entryPoint": "src/views/whosWatching.js",
+          "host": "attribute",
+          "recordTypes": [
+            "Feature",
+            "Requirement",
+            "Epic",
+            "Ideas::Idea",
+            "Release"
+          ]
+        }
+      }
+    }
+  }
+}
